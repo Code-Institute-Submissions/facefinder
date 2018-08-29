@@ -28,8 +28,7 @@ const initialState = {
     box: {},
     route: 'signin',
     isSignedIn: false,
-    user:
-    {
+    user: {
         id: '',
         name: '',
         email: '',
@@ -78,21 +77,22 @@ class App extends Component {
     };
 
     onInputChange = (event) => {
-        this.setState({ input: event.target.value });
+        this.setState({input: event.target.value});
     };
 
     onButtonSubmit = () => {
-        this.setState({ imageUrl: this.state.input });
-        fetch('http://localhost:3000/imageurl', {
+        this.setState({imageUrl: this.state.input});
+        fetch(' https://face-finder-backend-api.herokuapp.com/imageurl', {
             method: 'post',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
                 input: this.state.input
             })
         })
+        .then(response => response.json())
         .then(response => {
           if (response) {
-            fetch('http://localhost:3000/image', {
+            fetch(' https://face-finder-backend-api.herokuapp.com/image', {
                method: 'put',
                headers: { 'Content-Type': 'application/json' },
                body: JSON.stringify({

@@ -5,7 +5,7 @@ const ImageLinkForm = ({ onInputChange, onButtonSubmit }) => {
     return (
         <div>
             <p className='f3'>
-                {'This Is FaceFinder, Powered By The Machine learnig Clarafi API, Give It A Go.'}
+                {'This Is FaceFinder, Give It A Go.__STEP1: Go To google images, search for faces,__STEP2: click on a face , then right click & choose Copy image Address,__STEP3: go back to Face Finder & copy & paste in to the search form & vola,__ Powered By The Machine learnig Clarafi API'}
             </p>
             <div className='center'>
                 <div className='form center pa4 br3 shadow-5'>
