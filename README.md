@@ -1,6 +1,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+
+
+C:\Users\USER\Desktop\face-finder\facefinder>heroku git:remote -a face-finder-front-ends
+set git remote heroku to https://git.heroku.com/face-finder-front-end.gits
+
+
+
+
+
 Below you will find some information on how to perform common tasks.<br>
+
+
+
+
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
 ## Table of Contents
