@@ -82,7 +82,7 @@ class App extends Component {
 
     onButtonSubmit = () => {
         this.setState({imageUrl: this.state.input});
-        fetch(' https://face-finder-backend-api.herokuapp.com/imageurl', {
+        fetch('https://face-finder-backend-api.herokuapp.com/imageurl', {
             method: 'post',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
@@ -92,7 +92,7 @@ class App extends Component {
         .then(response => response.json())
         .then(response => {
           if (response) {
-            fetch(' https://face-finder-backend-api.herokuapp.com/image', {
+            fetch('https://face-finder-backend-api.herokuapp.com/image', {
                method: 'put',
                headers: { 'Content-Type': 'application/json' },
                body: JSON.stringify({
