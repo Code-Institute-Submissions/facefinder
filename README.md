@@ -19,7 +19,7 @@
 
 The theme of this website is geared towards the AI Community, the Particle.js background is indented, to be space & futuristic like, 
 
-- The content is very minmal, this project is purely based on the react,js
+- The content is very minmal, this project is purely based on the react.js view
 
 - liberary to create the frontend  & the exspress middleware framework for bridging our gap between our database, our server
 
@@ -52,13 +52,37 @@ The theme of this website is geared towards the AI Community, the Particle.js ba
 
 ## Features
 ## clarifaiAPI
-- The Main Fearture of this apllication is the clarifaiAPI.
+- The Main Fearture of this application is the clarifaiAPI.
 
 ## Node.js
 - The Robot
 
 ## React.js
 - The FrontEnd
+
+## postgresDatabase
+- The Database
+- First I needed to start my database server in my pgAdmin management console, while this was running
+- Next I had to have both my frontend project/facefinder & my backend/face-finder-backend-api
+- running on there own local development servers,I did this with Visual studio Code terminals,
+- this is with the front end already coded & setup to connect to my application
+- postgres uses sql to communicate with my express server requests
+- For the database in my project I chose the rational database postgres , in order to achieve this I needed to install pgAdmin3,
+- to manage my database,
+- after installation I needed to create my [database], I acccomplished this with both the postg cli & pgAdmin ,
+- Next I needed to map out my schema, once I was ready to build
+- Next I created my tables to create my columns by inserting my sql statements in pgAdmin3, for ease of use
+- I accomplished this by creating a joined table, between the users table & the login table
+- they will be programaticly connected through the emal field 
+- I created my user, by inserting my sql statements in pgAdmin3, for ease of use
+- Next I tested my application by restarting both development severs
+- my Express server is now connected to my database & is also responding back to my front end
+- all these operations had to be carried out simultaneously
+- In my local env the application is operating 100%
+
+- [FaceFinderDATABASEScreenShots](https://jigsaw.w3g/)
+
+
 
 ## Exspress.js
 - The Server
@@ -68,6 +92,8 @@ The theme of this website is geared towards the AI Community, the Particle.js ba
 ##### Get 100% in LightHouse
 ##### Dockerisation for greater speed & performance
 ##### A more sophisticated authentication system
+
+
 ## Technologies Used
 - [clarifaiAPI](https://clarifai.com/)
     - The project uses **clarifaiAPI** Clarifai is an artificial intelligence visual recognition company 
@@ -86,6 +112,12 @@ The theme of this website is geared towards the AI Community, the Particle.js ba
 
 - [React.js](https://reactjs.org/)
     - The project uses **https://reactjs.org/** A JavaScript & Node.js web application framework library for building user interfaces.
+
+- [tachyons](https://tachyons.io/)
+    - The project uses **https://tachyons.io/** It’s easy to build components with Tachyons so it works well with React & Static html
+
+- [knex](knexjs.org/)
+    - The project uses **knexjs.org/** Knex.js is a "batteries included" SQL query builder for Postgres
 
 - [PGAdmin3](https://www.pgadmin.org/)
     - The project uses **https://reactjs.org/** Open Source administration and development platform for PostgreSQL
@@ -108,10 +140,10 @@ The theme of this website is geared towards the AI Community, the Particle.js ba
 - [BootStrap3](https://https://getbootstrap.com/)
     - The project uses **BootStrap3** to assist the Developer with a build in css libaray ,aswell reusable components.
     
-<!-- - [Ajax](https://https://www.w3schools.com/)
-- Update a web page without reloading the page, requesting data from a servers, 
-- Receive data from a server
-- Send data to a server -->
+- [Ajax](https://https://www.w3schools.com/)
+   - Update a web page without reloading the page, requesting data from a servers, 
+   - Receive data from a server
+   - Send data to a server
 
 - [VisualStudioCode](https://code.visualstudio.com/)
     - The project uses **VisualStudioCode** to Write/Code & format the syntax in various languages.
@@ -222,28 +254,56 @@ For any scenarios that have not been automated, test the user stories manually a
 
 
 
-### Test1 User6 ( True/False )
- - Was User6 able to submit a email message after comtinulsy pressing the contact section or break the site ?
- - False
-### Test1 User6 ( True/False )
- - Was User6 able to navigate around the site ?
- - True 
- - RESULT 100%
-
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-####You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.###****
+####You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.###****the big bug goes here
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+
+
 
 ## Deployment
 
 - To deploy this application/project the first task is to make sure my project is version controlled with GitHub
+- I needed to depoy my front end & backend
+- backend was first up with the use of the HerokuCLI, I created an heroku app from the command line
+- by running the git remote -v command I could calrify my heroku address
+- Then I Git add ./Git commit -m ""/ Git push/ Git push heroku master
+- Heroku will build my app with my node modules packgage.json file
+- After Success Heroku gave me the end point for my fetch function for my app.js & register & images urls
+- In completing this task I pointed the frontend to the location of the server,that was provided by heroku
+- Next I had to rebuild my database, I did this in the herokuCLI by running heroku pg:sql
+- this opened up my heroku psql cli inside of heroku
+- Then I went back to my pgAdmin & copied my statements from database schema
+- With the pgsql cli runninig I inserted my schema into my database which was on heroku
 
+## Deployment part2
+- Next task was to deploy my front end on heroku
+- So once again I creatd an app from the HerokuCli
+- then I retrived my heroku.git address
+- Next I needed to
+- Then I Git add ./Git commit -m ""/ Git push/ Git push heroku master
+
+## VERSION CONTROL
+  The backend project folder lives at this address
+  [github](https://github.com/90t/publish)
+
+  The frontend project folder lives at this address
+  [github](https://github.com/90t/public) <------ THIS IS THE LIVE PROJECT FOLDER 
+
+  ## My front end project can be viewed fully deployed on heroku [here](https://face-finder-front-end.herokuapp.com/).
+  
+  ## My backend project can be viewed fully deployed on heroku [here](https://face-finder-backend-api.herokuapp.com/).
+  
 
 
 - Different values for environment variables (Heroku Config Vars)? Need to do
+
+- heroku  https://git.heroku.com/face-finder-backend-api.git (fetch)
+- heroku  https://git.heroku.com/face-finder-backend-api.git (push)
+- origin  https://github.com/90t/face-finder-server.git (fetch)
+- origin  https://github.com/90t/face-finder-server.git (push)
+
+
 - Different configuration files?
 
 - heroku  https://git.heroku.com/face-finder-front-end.git 
@@ -252,8 +312,6 @@ If this section grows too long, you may want to split it off into a separate fil
 - origin  https://github.com/90t/facefinder.git 
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
-
-You can find the most recent version of this guide create-react-app [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
 
 ## Credits
