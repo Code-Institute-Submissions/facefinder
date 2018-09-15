@@ -42,6 +42,7 @@ The theme of this website is geared towards the AI Community, the Particle.js ba
 - My Application is very easy to use , it is just a matter of copy & pasting a valid image url from google images & pasting it back into
 - The dedect box & watch the magic happen ,
 
+- My Application looks amazingon all screnn sizes , this is down to react responsivness 
 - My Application is build for the desktop & tablet, it is not very user freindly on the mobile device ,
 - while it possible to achieve the task of the operation, it is not a very easy expeirence, it was built for the desktop , it is
 - not very user freindly on the laptop , as a user has to manully copy & paste useing the touch pad or shift & arrows
