@@ -53,12 +53,30 @@ The theme of this website is geared towards the AI Community, the Particle.js ba
 ## Features
 ## clarifaiAPI
 - The Main Fearture of this application is the clarifaiAPI.
-
-## Node.js
-- The Robot
+- clarifai is a machine learning api free of charge,
+- It trains models in millions pictures of one subject to regcognise just about anything
 
 ## React.js
 - The FrontEnd
+- I built this using react.js, with create react app command , after my boiler plate project was created,
+- I cut out the contents of app.js , & kept the component function
+- I Started the development server with npm start
+- First I installed Tachyons with npm install tachyons & imported them in to my index.js
+- I also installed particle.js with npm install react-particles
+- I then created my components
+- My Navigaation
+- My Logo -- I installed React-tilt.js to interact with my logo & saved as a dev, then imported into my logo component
+- My ImageLink Form
+- My Face Recognition -- I installed clarifiy with npm & imported into my app.js
+- My Signin
+- My Register
+- My Rank
+- Next I imported my components into my Navigation.js ,FaceRecognition.js ,Logo.js ,ImagelinkForm.js ,Registration.js ,Signin.js
+- Rank.js 
+- This was an amazing way to develop, reusable React components , the dry methodology 
+- I aslo imported all these components into my app.js
+- Next I created my css files & styled my project, with main styles in index.css, which effect my intire app
+
 
 ## postgresDatabase
 - The Database
@@ -69,7 +87,7 @@ The theme of this website is geared towards the AI Community, the Particle.js ba
 - postgres uses sql to communicate with my express server requests
 - For the database in my project I chose the rational database postgres , in order to achieve this I needed to install pgAdmin3,
 - to manage my database,
-- after installation I needed to create my [database], I acccomplished this with both the postg cli & pgAdmin ,
+- after installation I needed to create my [database], I acccomplished this with both the postsql cli & pgAdmin3 ,
 - Next I needed to map out my schema, once I was ready to build
 - Next I created my tables to create my columns by inserting my sql statements in pgAdmin3, for ease of use
 - I accomplished this by creating a joined table, between the users table & the login table
@@ -80,12 +98,26 @@ The theme of this website is geared towards the AI Community, the Particle.js ba
 - all these operations had to be carried out simultaneously
 - In my local env the application is operating 100%
 
-- [FaceFinderDATABASEScreenShots](https://jigsaw.w3g/)
+
+
+## Node.js & NPM 
+- The Robot
+- I used Node.js & NPM as a package manager to install my modules & creates my package.json
+- & with node everything runs in the browser 
+- Heroku will need my package.json to rebuild my project
+- Node is also what gives us the abitly to build the backend server in express
 
 
 
 ## Exspress.js
 - The Server
+- I Installed express with node & npm
+- I used the express module in node to build the backend server in express with the require function, 
+- I programmed the server to listen on port 3000
+- I succesfully started my development server
+- began testing & buiding my backend server
+
+
 
 ## THE FUTURE
 ##### I hope to develop on this project in the future to train a model to dedect recthangles, then I can extract the shapes with software such Adobe ai, I can then use these shapes the create isomorphic designs, example would be point the model at a skyline & extract the shapes & then build the isomorphic city.
@@ -139,6 +171,7 @@ The theme of this website is geared towards the AI Community, the Particle.js ba
     
 - [BootStrap3](https://https://getbootstrap.com/)
     - The project uses **BootStrap3** to assist the Developer with a build in css libaray ,aswell reusable components.
+    - This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
     
 - [Ajax](https://https://www.w3schools.com/)
    - Update a web page without reloading the page, requesting data from a servers, 
@@ -168,13 +201,11 @@ The theme of this website is geared towards the AI Community, the Particle.js ba
     
     
 
-    
--
-    
 
 
 ## Testing
 ##### I ran all my files through a validation test using
+
 - [W3C](https://validator.w3.org/) for HTML.
 - [W3C](https://jigsaw.w3.org/css-validator/) for CSS.
 - [JS Hint](http://jshint.com/) for JavaScript.
@@ -188,7 +219,9 @@ Tested On
 - Opera.
 - Continous Design Testing SonyXsperia Mobile Phone 
 - Continous Design Testing Windows10XL Mobile Phone
-- [LightHouse](https://chrome.google.com/webstore/category/extensions) 
+- [LightHouse](https://chrome.google.com/webstore/category/extensions)
+- [Travis](https://travis-ci.org/) 
+- [Postman](https://www.getpostman.com/) 
 
 
 
@@ -197,17 +230,16 @@ Tested On
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+Travis###
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-    ### Test1 User1 ( True/False )
+
+
+
+
+### Test1 User1 ( True/False )
  - Was User1 able to connect to the website ?
  - True 
  ### Test1 User1 ( True/False )
@@ -254,7 +286,7 @@ For any scenarios that have not been automated, test the user stories manually a
 
 
 
-####You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.###****the big bug goes here
+####2018-09-14T18:30:10.815632+00:00 heroku[router]: at=info method=POST path="/imageurl" host=face-finder-backend-api.herokuapp.com request_id=720c115d-ef37-46ea-a7a9-f6dc731d5b92 fwd="80.233.35.66" dyno=web.1 connect=1ms service=85ms status=400 bytes=273 protocol=https.###****the big bug goes here
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
@@ -291,12 +323,13 @@ If this section grows too long, you may want to split it off into a separate fil
   [github](https://github.com/90t/public) <------ THIS IS THE LIVE PROJECT FOLDER 
 
   ## My front end project can be viewed fully deployed on heroku [here](https://face-finder-front-end.herokuapp.com/).
-  
+
   ## My backend project can be viewed fully deployed on heroku [here](https://face-finder-backend-api.herokuapp.com/).
   
 
 
-- Different values for environment variables (Heroku Config Vars)? Need to do
+- I added my env vars in the heroku cloud managment console in the settings section,
+- I created a viarible named CLARAFIAI_API in my backend project 
 
 - heroku  https://git.heroku.com/face-finder-backend-api.git (fetch)
 - heroku  https://git.heroku.com/face-finder-backend-api.git (push)
@@ -341,9 +374,6 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 - [clarifaiAPI](https://clarifai.com/)
     - Documentation.
-
-# This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-
 
 
 C:\Users\USER\Desktop\face-finder\facefinder>heroku git:remote -a face-finder-front-end
