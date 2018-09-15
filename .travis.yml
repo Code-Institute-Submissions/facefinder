@@ -1,19 +1,13 @@
 language: node_js
-sudo: false
 node_js:
- - "stable"
-install:
-  - npm install
-script:
-  - npm App.js
-
+  - "stable"
 cache:
-directories:
-  - "node_modules"
-
-# language: node_js
-# node_js: 
-#   - "stable"
-# cache:
-#   directories:
-#     - "node_modules"
+  directories:
+    - node_modules
+script:
+  - npm test
+  - npm run build
+deploy:
+  - heroku
+on:
+  branch: master

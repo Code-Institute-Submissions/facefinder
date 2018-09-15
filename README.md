@@ -12,8 +12,24 @@
 - I was amazed at the power & potentiol of this technology,
 - its great that I get the chance to focus my new found knowledge on a idea I was so interested in.
 
-- It uses the postgres database which is still one of the most popular & wildly used for development , coupled with the exspress middleware - framework & the react,js frontend framework, these technologys stack up beautifully to be an enormously powerfull application, 
-
+- It uses the postgres database which is still one of the most popular & wildly used for development ,
+- coupled with the exspress middleware - framework & the react,js frontend framework,
+- these technologys stack up beautifully in a tech triangle to be an enormously powerfull application,
+- With a small bit of imagination the results of this application can be very interesting indeed,
+- In this project I learned a great deal about fullstack development, it took many months to figure out all the
+- different aspects that all must fit togheter perfectly or your application just will not work, 
+- I made many many errors on this project, but for every error, I had to research & debug to find the answer,
+- every answer brought me closer to my goal of finshing with a fully workiing application built with js,
+- The exspress framework was a mind blowing development discovery, the abitly to programme a server in development,
+- & on heroku gave me the abilty to build this awesome app, with its amazing structure & intergrtion with node.js on the front 
+- end , coupled with the mmost powerfull database in the world , postgres,
+- building the database was another awesome expierence, while it is only a very small database, it operating seemlesly 
+- with express middle ware,
+- building my database gave me a much cleare picture of all the moving elements, 
+- building the front end was by far the most fun , reusing the react componets & using the import method just like django & flask , it is truly a joy to work with
+- building the express server was surprisingly alot more simple that I prevoiusly had imagined, once I had it up & running, it
+- was just a matter of refering to the documentation, which for express is excellent,
+- it has taken me at least 6 months to complete this project, & it has been an amazing expierence, with a tonne fo errors I just - kept drilling away till I got it right which was on 15/09/2018
  
 ## UX
 
@@ -51,7 +67,16 @@ The theme of this website is geared towards the AI Community, the Particle.js ba
 
 - You can see the power of FaceFinder here
 
-- [FaceFinderScreenShots](https://jigsaw.w3g/)
+- [FaceFinderScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example.PNG)
+- (https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example1.PNG)
+- (https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example2.PNG)
+- (https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example3.PNG)
+- (https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example4.PNG)
+- (https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example5.PNG)
+- (https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example6.PNG)
+- (https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example7.PNG)
+- (https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example8.PNG)
+- (https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example9.PNG)
 
 ## Features
 ## clarifaiAPI
@@ -94,12 +119,17 @@ The theme of this website is geared towards the AI Community, the Particle.js ba
 - Next I needed to map out my schema, once I was ready to build
 - Next I created my tables to create my columns by inserting my sql statements in pgAdmin3, for ease of use
 - I accomplished this by creating a joined table, between the users table & the login table
-- they will be programaticly connected through the emal field 
+- they will be programaticly connected through the email field 
 - I created my user, by inserting my sql statements in pgAdmin3, for ease of use
-- Next I tested my application by restarting both development severs
+- Next I tested my application by restarting both development servers
 - my Express server is now connected to my database & is also responding back to my front end
 - all these operations had to be carried out simultaneously
 - In my local env the application is operating 100%
+
+ You can see view my database here 
+
+ [FaceFinderDatBaseScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/database/database_proof.PNG)
+ [FaceFinderDatBaseScreenShot](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/database/login_proof_of_database.PNG)
 
 
 
@@ -123,10 +153,10 @@ The theme of this website is geared towards the AI Community, the Particle.js ba
 
 
 ## THE FUTURE
-##### I hope to develop on this project in the future to train a model to dedect recthangles, then I can extract the shapes with software such Adobe ai, I can then use these shapes the create isomorphic designs, example would be point the model at a skyline & extract the shapes & then build the isomorphic city.
+##### I will creating in the future a react component for a new auth system, with much more fuctionalty, suvh pasword & email ##### recovery , but this would of been far to much to implement, the main scope of this project is the discover the power of ##### clarifai 
+##### I hope to develop on this project in the future to train a model to dedect recthangles, then I can extract the shapes with ##### software such Adobe ai, I can then use these shapes the create isomorphic designs, example would be point the model at a ##### skyline & extract the shapes & then build the isomorphic city.
 ##### Get 100% in LightHouse
 ##### Dockerisation for greater speed & performance
-##### A more sophisticated authentication system
 
 
 ## Technologies Used
@@ -148,12 +178,6 @@ The theme of this website is geared towards the AI Community, the Particle.js ba
 - [React.js](https://reactjs.org/)
     - The project uses **https://reactjs.org/** A JavaScript & Node.js web application framework library for building user interfaces.
 
-- [tachyons](https://tachyons.io/)
-    - The project uses **https://tachyons.io/** It’s easy to build components with Tachyons so it works well with React & Static html
-
-- [knex](knexjs.org/)
-    - The project uses **knexjs.org/** Knex.js is a "batteries included" SQL query builder for Postgres
-
 - [PGAdmin3](https://www.pgadmin.org/)
     - The project uses **https://reactjs.org/** Open Source administration and development platform for PostgreSQL
 
@@ -165,6 +189,15 @@ The theme of this website is geared towards the AI Community, the Particle.js ba
 
 - [Heroku](https://www.heroku.com/)
     - The project uses **https://www.heroku.com/** to Deploy My Project 
+
+- [MARKDOWN](https://https://www.w3schools.com/)
+    - The project uses **https://https://www.w3schools.com/** to Deploy My Project 
+
+- [tachyons](https://tachyons.io/)
+    - The project uses **https://tachyons.io/** It’s easy to build components with Tachyons so it works well with React & Static html
+
+- [knex](knexjs.org/)
+    - The project uses **knexjs.org/** Knex.js is a "batteries included" SQL query builder for Postgres
 
 - [HTML5](https://https://www.w3schools.com/)
     - The project uses **HTML5** to house the sturcture & the base semantics.
@@ -233,49 +266,119 @@ Tested On
 
 
 ### Test1 User1 ( True/False )
- - Was User1 able to connect to the website ?
+ - Was User1 able to register for an account ?
  - True 
  ### Test1 User1 ( True/False )
- - Was User1 able to navigate around the site ?
+ - Was User1 able to dedect a picture with the detection box ?
  - True
  - RESULT 100%
 
 
 
 ### Test1 User2 ( True/False )
- - Was User2 able to navigate around the site ?
- - True 
- ### Test1 User2 ( True/False )
- - Was User2 able to complete the task of filling out the details in the incorrect format ?
- - False
+ - Was User1 able to register for an account with the incorrect details ?
+ - FALSH 
  ### Test1 User2 ( True/False )
  - Was User2 able to complete the task of filling out the details in the correct format ?
- - True
+ - TRUE
+ ### Test1 User2 ( True/False )
+ - Was User2 able to Detect a picture without a face ?
+ - Falsh
+ ### Test1 User2 ( True/False )
+ - Was User2 able to Detect a picture with a face ?
+ - TRUE
  - RESULT 100%
 
 
  ### Test1 User4 ( True/False )
- - Was User4 able to navigate around the site with his disabilty?
+ - Was User4 able to register a second account with the same email & a different password ?
+ - Falsh
+ ### Test1 User4 ( True/False )
+ - Was User4 able to register a second account with a different email and a new password ?
  - True 
  ### Test1 User4 ( True/False )
- - Was User4 able to connect to geoLocation ?
- - True 
+ - Was User4 able to Detect a picture with a face ?
+ - TRUE
+ ### Test1 User4 ( True/False )
+ - Was User4 able to Detect a picture without a face ?
+ - Falsh
  - RESULT 100%
 
+ 
+
 
  ### Test1 User5 ( True/False )
- - Was User5 able to connect to the website on satellite internet ?
- - True 
+ - Was User5 able to sign up with a incorrect email (missing @) ?
+ - Falsh 
  ### Test1 User5 ( True/False )
- - Was User5 able to navigate around the site ?
+ - Was User5 able to move from the login to the signin without getting lost ?
  - True
  ### Test1 User5 ( True/False )
- - Was User5 able to connect to geoLocation ?
- - True 
+ - Was User5 able to login with his prevoius email & differnt password ?
+ - Falsh
  ### Test1 User5 ( True/False )
- - Was User5 found ?
- - Unknown 
- - RESULT Inconclusive
+ - Was User5 able to login with his prevoius email & differnt password ?
+ - Falsh
+ ### Test1 User5 ( True/False )
+ - Was User5 able to break the application by inserting incorrect urls into the detect box
+ - Falsh
+ - RESULT 100%
+
+ #### clarifaiAPI face recognition tests,
+ ## TEST1
+ - Was Clarafai succesfull in telling the differnce between a mans face & a K9S
+ True
+ - RESULT 100%
+ ## TEST2
+ - Was Clarafai succesfull in telling the differnce between a womens face & a drawing of the same face on the smame portrate,
+ - & did clarifai pick the more face like ? 
+ True
+ - RESULT 100%
+ ## TEST3
+ - Was Clarafai succesfull in recognising a apps face
+ True
+ - RESULT 100%
+ ## TEST4
+ - Was Clarafai succesfull in recognising  a mask of a face 
+ True
+ - RESULT 100%
+ ## TEST5
+ ## TEST4
+ - Was Clarafai succesfull in recognising a face in a crowd of faces
+ True
+ - RESULT 100%
+ ## TEST6
+ - Was Clarafai succesfull in recognising a face made of plaster
+ True
+ - RESULT 100%
+ ## TEST7
+ - Was Clarafai succesfull in telling the difference bbetween an aimation face ,which was the same face &
+ - the same face,s human face
+ Falsh
+ - RESULT 0%
+ ## TEST6
+ - Was Clarafai succesfull in recognising a pencil face & a computer generated face 
+ True
+ - RESULT 100%
+ ## TEST8
+ - Was Clarafai succesfull in recognising a face made artist fine pencil
+ True
+ - RESULT 100%
+ ## TEST9
+ - Was Clarafai succesfull in recognising a face made of plaster
+ True
+ - RESULT 100%
+ ## TEST10
+ - Was Clarafai succesfull in recognising a face made of plaster
+ True
+ - RESULT 100%
+ ## TEST11
+ - Was Clarafai succesfull in recognising a face made of plaster
+ true
+ - RESULT 100%
+ 
+
+ 
 
 
 
@@ -296,7 +399,7 @@ If this section grows too long, you may want to split it off into a separate fil
 - Heroku will build my app with my node modules packgage.json file
 - After Success Heroku gave me the end point for my fetch function for my app.js & register & images urls
 - In completing this task I pointed the frontend to the location of the server,that was provided by heroku
-- Next I had to rebuild my database, I did this in the herokuCLI by running heroku pg:sql
+- Next I had to rebuild my database, I did this in the herokuCLI by running heroku pg:psql
 - this opened up my heroku psql cli inside of heroku
 - Then I went back to my pgAdmin & copied my statements from database schema
 - With the pgsql cli runninig I inserted my schema into my database which was on heroku
@@ -310,10 +413,15 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## VERSION CONTROL
   The backend project folder lives at this address
-  [github](https://github.com/90t/publish)
+  [github](https://github.com/90t/face-finder-server.git)
+- origin  https://github.com/90t/face-finder-server.git 
+- heroku  https://git.heroku.com/face-finder-backend-api.git 
+-
 
   The frontend project folder lives at this address
-  [github](https://github.com/90t/public) <------ THIS IS THE LIVE PROJECT FOLDER 
+  [github](https://github.com/90t/facefinder.git) <------ THIS IS THE LIVE PROJECT FOLDER
+- heroku  https://git.heroku.com/face-finder-front-end.git 
+- origin  https://github.com/90t/facefinder.git 
 
   ## My front end project can be viewed fully deployed on heroku [here](https://face-finder-front-end.herokuapp.com/).
 
@@ -322,28 +430,20 @@ If this section grows too long, you may want to split it off into a separate fil
 
 
 - I added my env vars in the heroku cloud managment console in the settings section,
-- I created a viarible named CLARAFIAI_API in my backend project 
-
-- heroku  https://git.heroku.com/face-finder-backend-api.git (fetch)
-- heroku  https://git.heroku.com/face-finder-backend-api.git (push)
-- origin  https://github.com/90t/face-finder-server.git (fetch)
-- origin  https://github.com/90t/face-finder-server.git (push)
+- which were my api key & my CLARAFIAI_API variable
+- I created a viarible named CLARAFIAI_API in my backend project this connected my application to heroku 
 
 
-- Different configuration files?
 
-- heroku  https://git.heroku.com/face-finder-front-end.git 
-- heroku  https://git.heroku.com/face-finder-front-end.git 
-- origin  https://github.com/90t/facefinder.git 
-- origin  https://github.com/90t/facefinder.git 
+# It is very easy to download install & run this project directly,
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 
 ## Credits
+StackOverFlow
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for just a small bit of the tech was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
 - The photos used in this site were obtained from PixelBay
