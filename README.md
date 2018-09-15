@@ -382,9 +382,32 @@ Tested On
 
 
 
-####2018-09-14T18:30:10.815632+00:00 heroku[router]: at=info method=POST path="/imageurl" host=face-finder-backend-api.herokuapp.com request_id=720c115d-ef37-46ea-a7a9-f6dc731d5b92 fwd="80.233.35.66" dyno=web.1 connect=1ms service=85ms status=400 bytes=273 protocol=https.###****the big bug goes here
+# The big bad bug, which turned out to be just a little bug,
+- When I swithced my api key from the front end to the back end express server, I did not enter my env vars for my api key ,
+- the reason for this was I did not want to set any env vars in heroku , I did not quite understand them at that stage,
+- Also when I set config for my model specs on clarafai, I chose all models , but I should of chose PREDICT, this tiny little
+- error put me back for almost a month, it was only when I set my env vars & tested my application , did my "cant work with API KEY "
+- catch error read thru in my console , so I went work only last night, after realising my other mistake from readng the clarafai documentation,
+- I reset my config for my machine learning API to PREDICT,
+- also another small mistake that I was making was , I was pushing to heroku , but not to my own git (on my pc),
+- it was when I connected my git hub, new api key & model , synced my repos, heroku github & my local git ,rebuild database ,set my env vars,
+- to my absolute delight, Success
+- my errors can be seen here
+[FaceFinderErrorsScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/errors/broken-after-moved-to-backend2.PNG)
+[FaceFinderErrorsScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/errors/broken-after-moved-to-backend.PNG)
+[FaceFinderErrorsScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/errors/Q11_for_aws.PNG)
+[FaceFinderErrorsScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/errors/Q13_for_aws.PNG)
+[FaceFinderErrorsScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/errors/Q20_for_aws.PNG)
+[FaceFinderErrorsScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/errors/Q22_for_aws.PNG)
+[FaceFinderErrorsScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/errors/Q24_for_aws.PNG)
+[FaceFinderErrorsScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/errors/Q3_for_aws.PNG)
+[FaceFinderErrorsScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/errors/Q5_for_aws.PNG)
+[FaceFinderErrorsScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/errors/Q6_for_aws.PNG)
+[FaceFinderErrorsScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/errors/Q7_for_aws.PNG)
+[FaceFinderErrorsScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/errors/Q_19For_aws.PNG)
+[FaceFinderErrorsScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/errors/Q_2For_aws.PNG)
+[FaceFinderErrorsScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/errors/Q_3For_aws.PNG)
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
 
