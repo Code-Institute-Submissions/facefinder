@@ -16,6 +16,11 @@
   color: #7c7388;
 }
 
+.f6 {
+  font-size: .875rem;
+  color: whitesmoke;
+}
+
 .particles{
   position: fixed;
   top: 0;
