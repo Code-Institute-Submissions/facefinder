@@ -1,4 +1,4 @@
-
+[![Build Status](https://travis-ci.org/90t/facefinder.svg?branch=master)](https://travis-ci.org/90t/facefinder)
 # FaceFinder
  Clive Noonan , Full Stack Student In CODE INSTITUTE
 
