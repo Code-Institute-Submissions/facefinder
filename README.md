@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/90t/facefinder.svg?branch=master)](https://travis-ci.org/90t/facefinder)
 # FaceFinder
  Clive Noonan , Full Stack Student In CODE INSTITUTE
+ Data Centric Development
 
 - I am currently a student at the Code Institute Studing Full Stack Diploma in Software Development. 
 - This is the third of five projects which I must complete in order to be awarded the globally recognised Diploma 
@@ -68,15 +68,15 @@ The theme of this website is geared towards the AI Community, the Particle.js ba
 - You can see the power of FaceFinder here
 
 - [FaceFinderScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example.PNG)
-- (https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example1.PNG)
-- (https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example2.PNG)
-- (https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example3.PNG)
-- (https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example4.PNG)
-- (https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example5.PNG)
-- (https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example6.PNG)
-- (https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example7.PNG)
-- (https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example8.PNG)
-- (https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example9.PNG)
+- [FaceFinderScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example1.PNG)
+- [FaceFinderScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example2.PNG)
+- [FaceFinderScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example3.PNG)
+- [FaceFinderScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example4.PNG)
+- [FaceFinderScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example5.PNG)
+- [FaceFinderScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example6.PNG)
+- [FaceFinderScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example7.PNG)
+- [FaceFinderScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example8.PNG)
+- [FaceFinderScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example9.PNG)
 
 ## Features
 ## clarifaiAPI
@@ -256,7 +256,6 @@ Tested On
 - Continous Design Testing SonyXsperia Mobile Phone 
 - Continous Design Testing Windows10XL Mobile Phone
 - [LightHouse](https://chrome.google.com/webstore/category/extensions)
-- [Travis](https://travis-ci.org/) 
 - [Postman](https://www.getpostman.com/) 
 
 
@@ -314,10 +313,10 @@ Tested On
  - Was User5 able to move from the login to the signin without getting lost ?
  - True
  ### Test1 User5 ( True/False )
- - Was User5 able to login with his prevoius email & differnt password ?
+ - Was User5 able to login with his prevoius email & different password ?
  - Falsh
  ### Test1 User5 ( True/False )
- - Was User5 able to login with his prevoius email & differnt password ?
+ - Was User5 able to login with his prevoius email & different password ?
  - Falsh
  ### Test1 User5 ( True/False )
  - Was User5 able to break the application by inserting incorrect urls into the detect box
@@ -327,54 +326,71 @@ Tested On
  #### clarifaiAPI face recognition tests,
  ## TEST1
  - Was Clarafai succesfull in telling the differnce between a mans face & a K9S
+ [FaceFinderScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example9.PNG)
  True
+
  - RESULT 100%
  ## TEST2
- - Was Clarafai succesfull in telling the differnce between a womens face & a drawing of the same face on the smame portrate,
+ - Was Clarafai succesfull in telling the differnce between a womens face & a drawing of the same face on the same portrate,
  - & did clarifai pick the more face like ? 
+[FaceFinderScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example6.PNG)
  True
+
  - RESULT 100%
  ## TEST3
- - Was Clarafai succesfull in recognising a apps face
+ - Was Clarafai succesfull in recognising a apes face
  True
+ [FaceFinderScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example7.PNG)
+
  - RESULT 100%
  ## TEST4
  - Was Clarafai succesfull in recognising  a mask of a face 
  True
+[FaceFinderTestScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example.PNG)
  - RESULT 100%
+
  ## TEST5
- ## TEST4
  - Was Clarafai succesfull in recognising a face in a crowd of faces
  True
+ [FaceFinderScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example8.PNG)
+
  - RESULT 100%
  ## TEST6
  - Was Clarafai succesfull in recognising a face made of plaster
  True
+ [FaceFinderScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example1.PNG)
+
  - RESULT 100%
  ## TEST7
- - Was Clarafai succesfull in telling the difference bbetween an aimation face ,which was the same face &
+ - Was Clarafai succesfull in telling the difference between an animation face ,which was the same face &
  - the same face,s human face
  Falsh
+ [FaceFinderScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example5.PNG)
+
  - RESULT 0%
  ## TEST6
  - Was Clarafai succesfull in recognising a pencil face & a computer generated face 
  True
+ [FaceFinderScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example1.PNG)
+
  - RESULT 100%
  ## TEST8
  - Was Clarafai succesfull in recognising a face made artist fine pencil
  True
+ [FaceFinderScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example1.PNG)
+
  - RESULT 100%
  ## TEST9
  - Was Clarafai succesfull in recognising a face made of plaster
  True
+ [FaceFinderScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example1.PNG)
  - RESULT 100%
- ## TEST10
- - Was Clarafai succesfull in recognising a face made of plaster
- True
- - RESULT 100%
- ## TEST11
- - Was Clarafai succesfull in recognising a face made of plaster
+ 
+## TEST10
+ - Was Clarafai succesfull in recognising a face made of plaster amoung other plaster faces
  true
+[FaceFinderScreenShots](https://s3-eu-west-1.amazonaws.com/clives-facefinder-bucket/tests/Awsome+example2.PNG)
+
  - RESULT 100%
  
 
@@ -429,10 +445,10 @@ Tested On
 
 ## Deployment part2
 - Next task was to deploy my front end on heroku
-- So once again I creatd an app from the HerokuCli
+- So once again I created an app from the HerokuCli
 - then I retrived my heroku.git address
 - Next I needed to
-- Then I Git add ./Git commit -m ""/ Git push/ Git push heroku master
+- Git add ./Git commit -m ""/ Git push/ Git push heroku master
 
 ## VERSION CONTROL
   The backend project folder lives at this address
@@ -459,6 +475,16 @@ Tested On
 
 
 # It is very easy to download install & run this project directly,
+# first you need to make sure you have Node.js installed on your computer
+# once you have eistablished you have a version number you are good to go
+# you then will have to git clone both of my repo,s
+# once cloned you have to run npm install
+# in both projects you will have to make sure you have your own directory setup for both different projects, 
+# you need to be in the diretory which you cloned into, where your package.json is located
+# after this you will have your pgAdmin installed on you computer & setup,
+# Then you have to make the nessacary changes to suit you needs,
+# as in your pgadmin creds
+# you could also use a differnet rational database
 
 
 
@@ -466,7 +492,7 @@ Tested On
 StackOverFlow
 
 ### Content
-- The text for just a small bit of the tech was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for just a small bit of the tech  discription was copied from the [Wikipedia](https://en.wikipedia.org/)
 
 ### Media
 - The photos used in this site were obtained from PixelBay
@@ -491,9 +517,9 @@ StackOverFlow
 - [clarifaiAPI](https://clarifai.com/)
     - Documentation.
 
+##### 10/09/2018 This is Clive Noonan , Code Initstute , Project Number3, Signing Off......
 
-C:\Users\USER\Desktop\face-finder\facefinder>heroku git:remote -a face-finder-front-end
-set git remote heroku to https://git.heroku.com/face-finder-front-end.git
+
 
 
 
