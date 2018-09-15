@@ -33,6 +33,8 @@ The theme of this website is geared towards the AI Community, the Particle.js ba
 
 - its power soon balances out the whole application into one application,
 
+- There is also a rank fearture in this project that lets the user know how many time they have submitted a url for face dedection
+
 - The register & signin is also very minimil , with the indent to get the user into the appliaction asap, 
 
 - The logo is indented to reflect the theme of the site, futuristic & bionic like, with a mind of its own if you will 
