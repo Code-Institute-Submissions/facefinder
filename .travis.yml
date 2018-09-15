@@ -8,6 +8,6 @@ script:
   - npm test
   - npm run build
 deploy:
-  - heroku
+  - [heroku]
 on:
   branch: master
